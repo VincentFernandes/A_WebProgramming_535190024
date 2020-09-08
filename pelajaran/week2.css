@@ -1,0 +1,14 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    color: green;
+    font: 3em sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/*class selector*/
+.test {
+    color: blueviolet;
+    font: 2em sans-serif;
+}
