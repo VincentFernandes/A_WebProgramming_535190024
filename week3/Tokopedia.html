@@ -17,9 +17,10 @@
 
     <style>
         .centering {
-            padding-left:16%;
+            padding-left:32%;
             padding-top: 20px;
         }
+}
     </style>
   
 </head>
@@ -61,14 +62,18 @@
         </li>
       </ul>
       <nav class="navbar navbar-light bg-light">
+        <div class="SearchBar input">
         <form class="form-inline" aria-setsize="20px">
-          <input class="form-control mr-sm-2" type="search" placeholder="cari rumah" aria-label="Search">
+          <div class="searchbox">
+            <input type="text" class="st-default-search-input" style="width: 900px; height: 40px" placeholder="cari rumah"/>
+        </div>
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
             <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
           </svg>
           </button>
         </form>
+      </div>
       </nav>
 
     </div>
@@ -94,7 +99,7 @@
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <div class="centering"> 
-    <div class="col-md-10 bg-light">
+    <div class="col-md-7 bg-light">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -123,5 +128,30 @@
     </div>
   </div>
 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <br><br>
+        <h2 style="font-weight: bold;">Kategori Pilihan</h2>
+        <p>  
+          <img alt="tokopedia-logo" width="100px" src="https://ecs7-p.tokopedia.net/img/cache/200-square/attachment/2018/8/11/3127195/3127195_2883bb63-8f91-4c9c-a423-d68b22e51b78.jpg.webp">
+          <img alt="tokopedia-logo" width="100px" src="https://ecs7-p.tokopedia.net/img/cache/200-square/attachment/2018/8/9/3127195/3127195_e5b3e074-c897-4cf0-9ced-5572d0538e7c.jpg.webp">
+          <img alt="tokopedia-logo" width="100px" src="https://ecs7-p.tokopedia.net/img/cache/200-square/attachment/2018/8/9/3127195/3127195_c6f70915-577f-4cd4-834c-daf892265ef0.jpg.webp">
+      </p>
+    </div>
+    <div class="col-md-4">
+      <br><br>
+      <h2 style="font-weight: bold;">Top Up & Tagihan
+      </h2>
+
+      <p>
+      </p>
+    </div>
+    <div class="col-md-4">
+      <br><br>
+      <button type="button" class="btn btn-sm" style="color: green">Lihat Semua</button>
+      </h2>
+  </div>
+  </div>
 </body>
 </html>
